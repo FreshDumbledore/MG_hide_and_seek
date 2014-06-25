@@ -40,7 +40,7 @@
 			<ep-cost value="0" />
 			<speed value="50" />
 			<anim-speed value="100" />
-			<animation path="models/ehouse.g3d" />
+			<animation path="models/castle.g3d" />
 			<sound enabled="false" />
 		</skill>
 		
@@ -50,7 +50,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/ehouse_construction.g3d" />
+			<animation path="models/castle.g3d" />
 			<sound enabled="false" />
 		</skill>	
 
@@ -60,7 +60,7 @@
 			<ep-cost value="60" />
 			<speed value="100" />
 			<anim-speed value="100" />
-			<animation path="models/ehouse.g3d" />
+			<animation path="models/castle.g3d" />
 			<sound enabled="false" />
 		</skill>	
 		
@@ -70,7 +70,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/ehouse.g3d" />
+			<animation path="models/castle.g3d" />
 			<sound enabled="false" />
 		</skill>
 		
@@ -80,7 +80,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/ehouse.g3d" />
+			<animation path="models/castle.g3d" />
 			<sound enabled="false" />
 		</skill>	
 		
@@ -90,7 +90,7 @@
 			<ep-cost value="0" />
 			<speed value="300" />
 			<anim-speed value="300" />
-			<animation path="models/ehouse_destroyed.g3d" />
+			<animation path="models/castle_die.g3d" />
 			<sound enabled="false"/>		
 			<fade value="false"/>
 		</skill>
@@ -100,12 +100,12 @@
 	<commands>
 		<command>
 			<type value="produce"/>
-			<name value="produce_mad_cow" />
-			<image path="../mad_cow/images/cow.bmp" />
+			<name value="blow_something_up" />
+			<image path="../blow_something_up/images/boom.bmp" />
 			<unit-requirements />
 			<upgrade-requirements />
 			<produce-skill value="produce_skill"/>
-			<produced-unit name="mad_cow"/>
+			<produced-unit name="blow_something_up"/>
 		</command>
 
 		<command>

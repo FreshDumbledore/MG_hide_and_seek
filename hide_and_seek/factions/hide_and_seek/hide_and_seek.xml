@@ -5,9 +5,8 @@
 		<resource name="gold" amount="0"/>
 	</starting-resources>
 	<starting-units>
-		<unit name="barracks" amount="1"/>
-		<unit name="worker" amount="12"/>
-		<unit name="mad_cow" amount="1"/>
+		<unit name="the_building" amount="1"/>
+		<unit name="worker" amount="13"/>
 	</starting-units>	
 	<music value="true" path="music/20090531.ogg"/>
 </faction>
