@@ -32,7 +32,7 @@
 		<meeting-point value="false"/>
 		<selection-sounds enabled="false"/>
 		<command-sounds enabled="false"/>
-		<count-in-victory-conditions value="false"/>
+		<count-in-victory-conditions value="true"/>
 	</parameters>
 
 
