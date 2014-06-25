@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="no"?>
+
+<faction>	
+	<starting-resources>
+		<resource name="gold" amount="0"/>
+	</starting-resources>
+	<starting-units>
+		<unit name="barracks" amount="1"/>
+		<unit name="worker" amount="1"/>
+	</starting-units>	
+	<music value="true" path="music/20090531.ogg"/>
+</faction>

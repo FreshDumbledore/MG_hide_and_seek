@@ -1,0 +1,122 @@
+<?xml version="1.0" standalone="no" ?>
+<unit>
+	<parameters>
+		<size value="4" />
+		<height value="2" />
+		<max-hp value="6000" regeneration="0"/>
+		<max-ep value="60" regeneration="1"/>
+		<armor value="0" />
+		<armor-type value="organic"/>
+		<sight value="6" />
+		<time value="100" />
+		<multi-selection value="false" />
+		<cellmap value="false">
+		</cellmap>
+		<levels/>
+		<fields>
+			<field value="land" />
+		</fields>
+		<properties>
+			<property value="burnable"/>
+		</properties>
+		<light enabled="false" />
+		<unit-requirements/>
+		<upgrade-requirements>
+		</upgrade-requirements>
+		<resource-requirements/>
+		<resources-stored />
+		<image path="images/barracks.bmp" />
+		<image-cancel path="../../icons/cancel.bmp"/>
+		<meeting-point value="true" image-path="../../icons/meeting_point.bmp"/>
+		<selection-sounds enabled="false"/>
+		<command-sounds enabled="false"/>
+		<count-in-victory-conditions value="false"/>
+	</parameters>
+	
+	<skills>
+		<skill>
+			<type value="stop"/>	
+			<name value="stop_skill"/>
+			<ep-cost value="0" />
+			<speed value="50" />
+			<anim-speed value="100" />
+			<animation path="models/ehouse.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="be_built" />	
+			<name value="be_built_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/ehouse_construction.g3d" />
+			<sound enabled="false" />
+		</skill>	
+
+		<skill>
+			<type value="produce"/>
+			<name value="produce_sight"/>	
+			<ep-cost value="60" />
+			<speed value="100" />
+			<anim-speed value="100" />
+			<animation path="models/ehouse.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="upgrade"/>	
+			<name value="upgrade_skill"/>	
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/ehouse.g3d" />
+			<sound enabled="false" />
+		</skill>
+		
+		<skill>
+			<type value="produce"/>
+			<name value="produce_skill"/>	
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/ehouse.g3d" />
+			<sound enabled="false" />
+		</skill>	
+		
+		<skill>
+			<type value="die" />	
+			<name value="die_skill"/>		
+			<ep-cost value="0" />
+			<speed value="300" />
+			<anim-speed value="300" />
+			<animation path="models/ehouse_destroyed.g3d" />
+			<sound enabled="false"/>		
+			<fade value="false"/>
+		</skill>
+
+	</skills>
+	
+	<commands>
+		<command>
+			<type value="produce"/>
+			<name value="produce_mad_cow" />
+			<image path="../mad_cow/images/cow.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_skill"/>
+			<produced-unit name="mad_cow"/>
+		</command>
+
+		<command>
+			<type value="produce"/>
+			<name value="reveal_map" />
+			<image path="../sight/images/sight.bmp" />
+			<unit-requirements />
+			<upgrade-requirements />
+			<produce-skill value="produce_sight"/>
+			<produced-unit name="sight"/>
+		</command>
+
+	</commands>
+</unit>

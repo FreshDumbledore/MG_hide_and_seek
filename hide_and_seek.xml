@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+
+<tech-tree>
+	<attack-types>
+		<attack-type name="boom"/>
+	</attack-types>
+	
+	<armor-types>
+		<armor-type name="organic"/>
+	</armor-types>
+	
+	<damage-multipliers>
+		<damage-multiplier attack="boom" armor="organic" value="999"/>
+	</damage-multipliers>
+</tech-tree>
