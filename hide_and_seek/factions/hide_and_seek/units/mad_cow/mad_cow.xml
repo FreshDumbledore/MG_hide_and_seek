@@ -70,8 +70,8 @@
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="2" />
-				<target value="all" include-self="true">
+				<radius value="3" />
+				<target value="foe" include-self="true">
 					<unit-type name="mad_cow" />
 					<unit-type name="hide" />
 					<unit-type name="worker" />
