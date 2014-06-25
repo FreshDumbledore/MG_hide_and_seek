@@ -72,9 +72,9 @@
 				<allow-multiple-boosts value="false" />
 				<radius value="3" />
 				<target value="foe" include-self="true">
-					<unit-type name="mad_cow" />
 					<unit-type name="hide" />
 					<unit-type name="worker" />
+					<unit-type name="mad_cow" />
 
 				</target>
 				<max-hp value="0" regeneration="-10000" />
@@ -101,12 +101,12 @@
 			<anim-speed value="40"/>
 			<animation path="models/cow_walking.g3d"/>
 			<sound enabled="false"/>
-			<attack-strenght value="700"/>
-			<attack-var value="50"/>
+			<attack-strenght value="0"/>
+			<attack-var value="0"/>
 			<attack-range value="1"/>
 			<attack-type value="boom"/>
 			<attack-fields>
-				<field value="land"/>
+				<field value="air"/>
 			</attack-fields>
 			<attack-start-time value="0"/>
 			<projectile value="true">
