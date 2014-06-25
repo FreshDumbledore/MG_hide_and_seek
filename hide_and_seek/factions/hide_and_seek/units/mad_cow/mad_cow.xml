@@ -70,9 +70,10 @@
 			<sound enabled="false" />
 			<attack-boost>
 				<allow-multiple-boosts value="false" />
-				<radius value="3" />
+				<radius value="5" />
 				<target value="foe" include-self="true">
-					<unit-type name="hide" />
+					<unit-type name="king" />
+					<unit-type name="peasant" />
 					<unit-type name="worker" />
 					<unit-type name="mad_cow" />
 

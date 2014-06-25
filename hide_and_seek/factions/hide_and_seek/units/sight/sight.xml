@@ -16,7 +16,7 @@
 		<cellmap value="false"/>
 		<levels/>			
 		<fields>
-			<field value="air"/>
+			<field value="land"/>
 		</fields>	
 		<properties/>
 		<light enabled="false"/>
@@ -32,8 +32,8 @@
 		<image-cancel path="../../icons/cancel.bmp"/>
 		<meeting-point value="false"/>
 		<selection-sounds enabled="false"/>
-
 		<command-sounds enabled="false"/>
+		<count-in-victory-conditions value="false"/>
 	</parameters>
 
 
