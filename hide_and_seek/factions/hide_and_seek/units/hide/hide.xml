@@ -16,7 +16,7 @@
 		<cellmap value="false"/>
 		<levels/>			
 		<fields>
-			<field value="ground"/>
+			<field value="land"/>
 		</fields>	
 		<properties/>
 		<light enabled="false"/>
