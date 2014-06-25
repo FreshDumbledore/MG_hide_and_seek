@@ -5,7 +5,7 @@
 	<parameters>
 		<size value="1"/>
 		<height value="1"/>
-		<max-hp value="1" regeneration="-2"/>
+		<max-hp value="1" regeneration="0"/>
 		<max-ep value="0"/>
 		<armor value="0"/>	
 		<armor-type value="organic"/>
@@ -32,7 +32,7 @@
 		<meeting-point value="false"/>
 		<selection-sounds enabled="false"/>
 		<command-sounds enabled="false"/>
-		<count-in-victory-conditions value="true"/>
+		<count-in-victory-conditions value="false"/>
 	</parameters>
 
 
